@@ -21,7 +21,7 @@ public class example1 {
 			PreparedStatement st = con.prepareStatement(sql);
 			
 			//String sql = "insert into databasetest.member values(?,?,?,?,?,?)";
-			//ResultSet rs = st.executeQuery(sql);
+			//ResultSet r = st.executeQuery(sql);
 
 //			rs.next();
 //			@SuppressWarnings("unused")
