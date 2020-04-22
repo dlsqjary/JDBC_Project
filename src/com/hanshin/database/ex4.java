@@ -30,14 +30,14 @@ public class ex4 {
 			}
 			System.out.println("---------------------------------\n\n");
 			
-			sql = "delete from addressbook where id = 4";
-			st.execute(sql);
-			
-			sql = "delete from addressbook where id = 5";
-			st.execute(sql);
-			
-			sql = "select * from databasetest.addressbook";
-			rs = st.executeQuery(sql);
+//			sql = "delete from addressbook where id = 4";
+//			st.execute(sql);
+//			
+//			sql = "delete from addressbook where id = 5";
+//			st.execute(sql);
+//			
+//			sql = "select * from databasetest.addressbook";
+//			rs = st.executeQuery(sql);
 			while(rs.next()) {
 				int id = rs.getInt("id");
 				String name = rs.getString("name");

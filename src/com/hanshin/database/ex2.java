@@ -20,26 +20,26 @@ public class ex2 {
 			PreparedStatement st = con.prepareStatement(sql);
 			
 
-//			st.setInt(1, 1);
-//			st.setString(2, "Hong");
-//			st.setString(3, "123456841");
-//			st.setString(4, "asdasd@naver.com");
-//			st.setString(5, "Seoul");
-//			st.executeUpdate();
-//			
-//			st.setInt(1, 2);
-//			st.setString(2, "In");
-//			st.setString(3, "4266485");
-//			st.setString(4, "hkisjsj@naver.com");
-//			st.setString(5, "Seoul");
-//			st.executeUpdate();
-//			
-//			st.setInt(1, 3);
-//			st.setString(2, "Lee");
-//			st.setString(3, "258499");
-//			st.setString(4, "oploiui@naver.com");
-//			st.setString(5, "Seoul");
-//			st.executeUpdate();
+			st.setInt(1, 1);
+			st.setString(2, "Hong");
+			st.setString(3, "123456841");
+			st.setString(4, "asdasd@naver.com");
+			st.setString(5, "Seoul");
+			st.executeUpdate();
+			
+			st.setInt(1, 2);
+			st.setString(2, "In");
+			st.setString(3, "4266485");
+			st.setString(4, "hkisjsj@naver.com");
+			st.setString(5, "Seoul");
+			st.executeUpdate();
+			
+			st.setInt(1, 3);
+			st.setString(2, "Lee");
+			st.setString(3, "258499");
+			st.setString(4, "oploiui@naver.com");
+			st.setString(5, "Seoul");
+			st.executeUpdate();
 			
 			st.setInt(1, 4);
 			st.setString(2, "Park");
@@ -53,7 +53,6 @@ public class ex2 {
 			st.setString(3, "515188");
 			st.setString(4, "jmgkergwe@naver.com");
 			st.setString(5, "Seoul");
-		
 			st.executeUpdate();
 			
 			sql = "select * from databasetest.addressbook";
@@ -70,7 +69,7 @@ public class ex2 {
 						+ "\n", id, name, tel, email, address);
 			}
 			
-			st.close();
+		    st.close();
 			con.close();
 			
 		} catch (Exception e) {
