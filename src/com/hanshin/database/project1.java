@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
+//처음부터 하나의 클래스에 작성했어야 했는데 마지막에 통합하려다 보니 제대로 안되서 각 문제들을 주석처리해서 하나의 클래스 안에 집어넣었습니다.
 
 public class project1 {
 	public static void main(String[] args) {
