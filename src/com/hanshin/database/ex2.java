@@ -66,7 +66,7 @@ public class ex2 {
 				String address = rs.getString("address");
 				
 				System.out.printf("id:  %d, userName: %s, birth: %s, dept: %s, email: %s"
-						+ "\n", id, name, tel, email, address);
+					 	+ "\n", id, name, tel, email, address);
 			}
 			
 		    st.close();
