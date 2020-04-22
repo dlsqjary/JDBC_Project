@@ -140,7 +140,7 @@ public class project1 {
 			con.close();
 			*/
 			
-			//4번 (테이블에 있는 데이터 갯수에 상관없이 하위 2개 행을 제거하고 싶었으나  Statement를 사용해서 무슨 방법으로 해야할지 방법이 떠오르지 않아서 패스)
+			//4번   (테이블에 있는 데이터 갯수에 상관없이 하위 2개 행을 제거하고 싶었으나  Statement를 사용해서 무슨 방법으로 해야할지 방법이 떠오르지 않아서 패스)
 			/*
 			 String sql;
 			sql = "select * from databasetest.addressbook";
