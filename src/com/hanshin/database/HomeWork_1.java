@@ -13,7 +13,7 @@ import java.util.Scanner;
 import com.hanshin.database.AddressbookTable;
 import com.mysql.cj.xdevapi.Result;
 
-//
+
 public class HomeWork_1 {
 
 	public static int num;
