@@ -1,5 +1,6 @@
 package com.hanshin.database;
 
+//
 public class AddressbookTable {
 	private int id;
 	private String name;
